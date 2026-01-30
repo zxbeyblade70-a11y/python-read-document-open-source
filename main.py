@@ -19,7 +19,7 @@ def get_document_from_github(target_url):
         return f"Error not connect to server: {e}"
 	   	    	
 # test program
-# ex : pull text from github
+# example : pull text from github
 url = "https://raw.githubusercontent.com/python/cpython/main/LICENSE"
 document_text = get_document_from_github(url)
 
